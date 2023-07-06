@@ -1,0 +1,12 @@
+CREATE TABLE weather_data (
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    timestamp_execution DATE, 
+    timestamp_dataset DATE,
+    sunshine VARCHAR(20),
+    temperature VARCHAR(20),
+    cloud_cover VARCHAR(20),
+    visibility VARCHAR(20),
+    condition_status VARCHAR(20),
+    solar VARCHAR(20),
+    icon VARCHAR(30)
+    );
